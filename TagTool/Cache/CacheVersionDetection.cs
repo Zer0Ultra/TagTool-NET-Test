@@ -74,6 +74,10 @@ namespace TagTool.Cache
                     version = CacheVersion.Halo2PC;
                     cachePlatform = CachePlatform.Original;
                     break;
+                case "06481.06.11.17.1330.alpha_relea":
+                case "05241.06.09.21.1534.first_playt":
+                case "08117.07.03.07.1702.delta":
+                case "08172.07.03.08.2240.delta":
                 case "09699.07.05.01.1534.delta":
                    version = CacheVersion.Halo3Beta;
                     cachePlatform = CachePlatform.Original;

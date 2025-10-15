@@ -36,7 +36,7 @@ namespace TagTool.Commands
             Console.WriteLine($"TagTool [{assembly.GetName().Version} (Built {FileTimeUtil.GetLinkerTimestampUtc(assembly)} UTC)]");
             Console.WriteLine();
             Console.WriteLine("Please report any bugs and/or feature requests:");
-            Console.WriteLine("https://github.com/MtnDewIt/TagTool-NET-Test/issues");
+            Console.WriteLine("https://github.com/Zer0Ultra1/TagTool-NET-Test/issues");
 
             AssemblyResolver.CheckMissingDependencies();
 

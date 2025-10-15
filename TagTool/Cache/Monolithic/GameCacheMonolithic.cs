@@ -51,6 +51,15 @@ namespace TagTool.Cache.Monolithic
                     version = CacheVersion.HaloReach11883;
                     platform = CachePlatform.Original;
                     break;
+                // 21225.13.01.14.1906.main
+                case "0e1faa8c-7f66-40aa-9027-276e168754b4":
+                // Untracked Tags Build (Aug 22 2011) 
+                case "2ccbe86e-fec7-478e-b346-a413be9f0d02":
+                //Untracked Tags Build (Nov 13 2013)
+                case "a224685c-4d51-4031-9312-7857ae20244f":
+                    version = CacheVersion.Halo4;
+                    platform = CachePlatform.Original;
+                    break;
                 default:
                     throw new Exception("Unable to detect monolothic cache version");
             }

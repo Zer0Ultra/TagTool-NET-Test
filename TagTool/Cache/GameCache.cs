@@ -64,6 +64,8 @@ namespace TagTool.Cache
                 }
                 else if (file.Name.Equals("tags.dat"))
                     estimatedVersion = CacheVersion.EldoradoED;
+                else if (file.Name.Equals("blob_index.dat"))
+                    estimatedVersion = CacheVersion.HaloReach11883; //Temp Fix
                 else
                     throw new Exception("Invalid file passed to GameCache constructor");
             }
